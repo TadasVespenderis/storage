@@ -1,0 +1,64 @@
+.main {
+  padding: 0;
+  width: 60%;
+  margin: 0 100px;
+  font-family: sans-serif;
+}
+li{
+  display: inline-block;
+  margin: 10px 10px;
+  height: 40px;
+}
+h3{
+  margin-right: 150px;
+}
+.liHeader{
+  text-align: justify;
+  height: 58px;
+  width: 180px;
+  display: inline-block;
+  margin: 0 10px;
+  border-style: hidden;
+}
+.liSidebar{
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 85%;
+  display: inline-block;
+  margin: 10px 10px;
+  height: 25px;
+  border: 2px solid grey;
+}
+.content{
+  float: right;
+  width: 78.5%;
+  height: 80vh;
+  border: 2px solid lightgrey;
+}
+.sidebar{
+  float: left;
+  width: 20%;
+  height: 80vh;
+  text-align: center;
+  border: 2px solid lightgrey;
+}
+td{
+  padding: 10px 15px;
+  border-bottom: 1px solid lightgrey;
+}
+.header{
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 350px;
+}
+.additems{
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  border: 2px solid grey;
+  background: lightgrey;
+}
